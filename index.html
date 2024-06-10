@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+    <link rel="shortcut icon" href="./imagens/CaféMelodia.png" type="image/x-icon">
+    <title>Café Melodia</title>
+</head>
+<body>
+    <header id="navbar">
+             <h1 id="logo_nav">Café Melodia</h1>
+    
+            <ul id="nav_list">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+            <button  id="btn-playlist"><a href="https://open.spotify.com/playlist/0zIbe3sPWT49HzwMnAF7Tt"><img class="notaMusical" src="./imagens/music_note.png" alt="Ir para playlist"></a></button>
+    </header>
+    
+    <main id="content">
+        <section id="home">
+            <div id="first">
+                <img src="./imagens/CaféMelodia.png" alt="" class="logo-main">
+                <div class="titles"><h1 class="title">Bem vindo ao <span>Café Melodia</span></h1>
+                <h3 class="subtitle">A Sinfonia do Café e Música</h3></div>
+                <p class="descricao">Desfrute de Cafés Harmoniosos e Trilhas Sonoras Inesquecíveis</p><button class="btn"><a href="#menu">Conheça o Menu</a></button>
+            </div>
+            <div class="main-image">
+                    <img src="./imagens/coffee.png" alt="">
+                </div>
+        </section>
+
+        <section id="menu">
+            <h1 class="title">Nosso Menu</h1>
+           <section class="cafes">
+            <div class="container">
+            <img src="./imagens/hot chocolate.png" alt="">
+            <h2 class="CoffeeName">Total Eclipse of the Mocha</h2>
+            <button class="btn ver-mais" data-coffee="eclipse"><a href="javascript:void(0)">Ver Mais</a></button>
+            <div class="descricao-detalhada" id="eclipse">
+                <p>Uma mistura rica e cremosa de chocolate e café, com um toque de baunilha.</p>
+                <ul>
+                    <li><h4>Ingredientes:</h4></li>
+                    <li>Café expresso</li>
+                    <li>Chocolate quente</li>
+                    <li>Baunilha</li>
+                    <li>Leite vaporizado</li>
+                    <li>Chantilly</li>
+                </ul>
+            </div>
+            </div>
+            <div class="container">
+                <img src="./imagens/cream latte.png" alt="">
+                <h2 class="CoffeeName">Sweet Latte o' Mine</h2>
+                <button class="btn ver-mais" data-coffee="latte"><a href="javascript:void(0)">Ver Mais</a></button>
+                <div class="descricao-detalhada" id="latte">
+                    <p>Latte suave e doce com um toque de creme e canela.</p>
+                    <ul>
+                        <li><h4>Ingredientes:</h4></li>
+                        <li>Leite vaporizado</li>
+                        <li>Expresso</li>
+                        <li>Canela</li>
+                        <li>Creme</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <img src="./imagens/cafeExpresso.png" alt="">
+                <h2 class="CoffeeName">Back In Black Expresso</h2>
+                <button class="btn ver-mais" data-coffee="black"><a href="javascript:void(0)">Ver Mais</a></button>
+                <div class="descricao-detalhada" id="black">
+                    <p>Um expresso forte e intenso, perfeito para os amantes de café puro.</p>
+                    <ul>
+                        <li><h4>Ingredientes:</h4></li>
+                        <li>Expresso duplo</li>
+                        <li>Água quente</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <h3 class="subtitle">Em breve novos sabores</h3>
+        </section>
+
+        <section id="playlist">
+            <h1 class="title">Nossa Playlist</h1>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0zIbe3sPWT49HzwMnAF7Tt?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </section>
+        <section id="sobre">
+            <h1 class="title">Sobre a nossa cafeteria</h1>
+            <p>Bem-vindo ao <span>Café Melodia</span>, onde o café e a música se encontram em perfeita harmonia.</p>
+            <p>Fundado por apaixonados por café e música, criamos um espaço acolhedor e inspirador, oferecendo bebidas artesanais e trilhas sonoras icônicas.</p>
+            <p>Nosso menu é uma celebração da criatividade, com bebidas inspiradas em músicas de rock e pop que trazem nomes icônicos e sabores memoráveis.</p> 
+            <p>Seja para uma pausa rápida ou uma noite agradável, convidamos você a visitar o Café Melodia e descobrir um lugar onde cada xícara de café conta uma história e cada nota musical eleva seu espírito. Venha experimentar a sinfonia perfeita de sabores e sons conosco.</p>
+        </section>
+    </main>
+
+
+    <footer>
+        <div id="conteudo_footer">
+            <ul class="footer-list">
+                <li><h3>Siga-nos</h3></li>
+                <li><a href="https://www.instagram.com" class="link-footer">Instagram</a></li>
+                <li><a href="https://open.spotify.com" class="link-footer">Spotify</a></li>
+            </ul>
+            <ul class="footer-list">
+                <li><h3>Contato</h3>
+                </li>
+                <li><a href="#" class="link-footer">Email</a></li>
+                <li><a href="#" class="link-footer">Telefone</a></li>
+            </ul>
+            
+    </footer>
+
+    <script src="./javascript/script.js"></script>
+
+</body>
+</html>

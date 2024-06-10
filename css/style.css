@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Lustria&display=swap');
+
+body{
+    background-color: #ccc;
+}
+#navbar{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    background-color: #48201a;
+}
+
+#logo_nav{
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#nav_list{
+    display:flex;
+    gap: 50px;
+    margin: 10px;
+    font-weight: 600;
+}
+header ul li a {
+    color: rgb(0, 0, 0);
+}
+
+header ul li a:hover{
+    background-color: #ccc;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.notaMusical{
+    width: 20px;
+}
+
+#btn-playlist{
+    padding-top: 8px;
+    padding: 5px;
+    border: solid 1px #000000;
+    border-radius: 30px;
+    background-color: #00000000;
+}
+#btn-playlist:hover{
+    background-color: #ccc;
+}
+
+.btn {
+    border: 0;
+    font-weight: 400;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #48201a;
+    color:#ccc;
+}
+.btn a{
+    color: #ccc;
+}
+.btn a:hover{
+    color: #48201a;
+}
+.btn:hover{
+    background-color: #00000000;
+    border: solid 1px #48201a;
+    color: #48201a;
+}
+
+#home{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+}
+#first img{
+    width: 120px;
+}
+#first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap:30px;
+}
+
+.titles{
+    display:flex;
+    flex-direction: column;
+    gap:3px;
+    margin-bottom: 20px;
+}
+.title{
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #48201a;
+}
+.title span{
+    font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+  color:#300f0a;
+}
+.subtitle{
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #48201a;
+}
+
+h2{
+    color:#300f0a;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    margin: 50px;
+}
+
+.cafes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container img{
+    width: 100px;
+}
+.container{
+    border: solid 2px #48201a;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap:20px;
+}
+
+.descricao-detalhada {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #48201a;
+    border-radius: 10px;
+    color:#300f0a;
+}
+
+.descricao-detalhada ul {
+    padding-left: 20px;
+}
+
+#playlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    margin: 50px;
+}
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap:15px;
+    margin:50px;
+    color: #48201a;
+}
+
+#sobre p span{
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #48201a;
+}
+
+
+footer {
+    width: 100%;
+    background-color:#48201a;
+    
+}
+
+#conteudo_footer{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 3rem;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.footer-list li h3{
+    color: #000;
+    padding-top:20px;
+}
+
+.link-footer{
+    color:#000 ;
+}
+.link-footer:hover{
+    background-color:#ccc;
+    color: #300f0a;
+    border-radius: 20px;
+    padding: 10px;
+}
